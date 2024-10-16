@@ -118,7 +118,7 @@
 unsigned int verblevel = VERBLEVEL_DEFAULT;
 static int do_report_desc = 1;
 static const char * const encryption_type[] = {
-	"UNSECURE",
+	"INSECURE",
 	"WIRED",
 	"CCM_1",
 	"RSA_1",

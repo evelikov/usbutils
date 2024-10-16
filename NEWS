@@ -75,7 +75,7 @@ Greg Kroah-Hartman (6):
       lsusb: fix up Midi Device specification devices
 
 Han Han (1):
-      Fix an runtime error reported by undefind sanitizer
+      Fix an runtime error reported by undefined sanitizer
 
 Robert Hancock (1):
       lsusb: Improve status display for SuperSpeedPlus hubs
@@ -210,7 +210,7 @@ Clemens Fruhwirth (1):
       Add usbreset.c as noinst_PROGRAMS target.
 
 Daniel Schaefer (1):
-      lsusb: Read unkown names from sysfs device desc.
+      lsusb: Read unknown names from sysfs device desc.
 
 Darsey Litzenberger (3):
       Remove a small hack that no longer has any effect.
@@ -313,7 +313,7 @@ Aurelien Jarno (2):
       Do not create and install usbutils.pc
 
 Greg Kroah-Hartman (32):
-      fix dump_videocontrol_interface for unitialized variable usage
+      fix dump_videocontrol_interface for uninitialized variable usage
       Add correct SPDX license identifiers to all files
       Add SPDX identifiers on files that did not have a specific license.
       wTotalLength should be printed as a hex number
@@ -343,8 +343,8 @@ Greg Kroah-Hartman (32):
       .travis.yml: add correct SPDX and copyright notices
       bom.spdx: update with latest copyright and SPDX identifier additions
       README.md: move the README file to markdown
-      README.md: fix fomatting
-      bom.spdx: upate with README -> README.md change
+      README.md: fix formatting
+      bom.spdx: update with README -> README.md change
 
 Lukas Nykryn (1):
       lsusb.py: convert to python3
@@ -393,7 +393,7 @@ Heinrich Schuchardt (1):
 Jaejoong Kim (4):
       lsusb : add support for the Encoding Unit Desc for uvc 1.5 device
       lsusb: fix alignment for Video Streaming interface desc
-      lsusb: parse additional control fileds in USB video control interfaces for UVC1.5
+      lsusb: parse additional control fields in USB video control interfaces for UVC1.5
       lsusb: proper display hexadecimal value for UVC control interface
 
 Jakub Wilk (1):
